@@ -29,9 +29,12 @@ public class palindromeNumber {
 
 
     public static boolean isDigitPalindrome2(long number2){
-        String num = String.valueOf(number2);
-        String reverse = String.valueOf(new StringBuilder(num).reverse()); // coverting String into Stringbuilder and use revese function
-        long reverseLong = Long.parseLong(reverse); // parsing revers, meaning converting String into Long
+        String num = String.valueOf(number2); // converting the long into String
+
+      //  String reverse = String.valueOf(new StringBuilder(num).reverse()); // coverting String into Stringbuilder and use revese function
+        String reverse = String.valueOf(new StringBuilder(num).reverse());
+
+        long reverseLong = Long.parseLong(reverse); // parsing reverse, meaning converting String into Long
 
         return reverseLong == number2;
     }
