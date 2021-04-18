@@ -7,7 +7,7 @@ Given any String print out how many times each character is found in the String
  */
 public class FrequencyOfCharacter {
     public static void main(String[] args) {
-        String str = "Cybertek";
+        String str = "Cybertekkkkkkk";
 
         // count; add ; lowercase; loop;
         int letterCount = 0;
