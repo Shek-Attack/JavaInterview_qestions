@@ -7,7 +7,7 @@ it is not:
 public class Palindrome {
     public static void main(String[] args) {
 
-        String text = "amalama";
+        String text = "radar";
         boolean chek = true;
 
         for(int i =0; i< text.length()/2;i++){ //amal
