@@ -23,6 +23,7 @@ class child extends parent{  // inheritance
    }
 }
 
+
 public class OverrideTesting {
 
     public static void main(String[] args) {
