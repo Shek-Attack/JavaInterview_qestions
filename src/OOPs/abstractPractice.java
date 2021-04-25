@@ -16,8 +16,6 @@ class Cat extends Animal {   // subclass (inherit from Animal)
     }
 }
 
-
-
 public class abstractPractice {
     public static void main(String[] args) {
         Cat cat = new Cat(); // creating cat class
