@@ -18,7 +18,6 @@ class Tiger implements wildAnimal{  // Cat "implements" the Animal interface
     }
   }
 
-
 public class InterfacePractice {
     public static void main(String[] args) {
 
