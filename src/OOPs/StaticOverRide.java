@@ -1,6 +1,8 @@
 package OOPs;
 
 class A{
+    int age;
+
     public static void staticMethod(){
         System.out.println("printing static method A");
 
@@ -13,6 +15,7 @@ class A{
 }
 
 class B extends A{
+    int age; // hiding the old variable
 
     public  static void staticMethod(){
         System.out.println("print static method 2");
