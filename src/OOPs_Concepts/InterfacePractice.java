@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs_Concepts;
 
 
 interface wildAnimal{  //interface  -  the word "interface" replaces "class" word

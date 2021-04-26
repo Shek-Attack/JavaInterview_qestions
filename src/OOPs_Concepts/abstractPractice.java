@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs_Concepts;
 
 abstract class Animal{ // abstract class
     public abstract void animalSound(); // Abstract class does not have body

@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs_Concepts;
 
 interface FirstInterface{
     public void myMethod1();
