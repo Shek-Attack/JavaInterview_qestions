@@ -43,6 +43,7 @@ public class test extends RuntimeException {
        // throw new test();  // checked exception  / this must be before NoSuchElementException()
         // otherwise, code line will not be reached.
 
+        // Abduweli cut his hair today.
 
     }
 }
