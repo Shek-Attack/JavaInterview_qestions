@@ -3,7 +3,8 @@ package Java_Week3;
 public class SwapNumbers {
 
     public static void main(String[] args) {
-        swap(4,7);
+
+         swap(4,7);
     }
 
     public static void swap(int a, int b){

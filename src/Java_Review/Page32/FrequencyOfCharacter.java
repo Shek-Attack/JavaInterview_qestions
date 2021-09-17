@@ -17,6 +17,7 @@ public class FrequencyOfCharacter {
             letterCount = 0;
             if(usedLetters.contains(str.charAt(i) + ""))
                 continue;
+            usedLetters += str.charAt(i);
             //if we used the letter before it will skip this iterator/loop
 
             for(int j= 0; j <str.length(); j++){
@@ -26,10 +27,10 @@ public class FrequencyOfCharacter {
             }
             System.out.println(str.charAt(i) + " = " + letterCount);
 
-            usedLetters += str.charAt(i);
 
-            //creatinganewstringfromtheletterscomingoutof theloopso
-           //wedon'tcountthemagainandhavetheuniquelettersonly
+
+            //creating a new string from the letters coming out of the loop so
+           //we don't count them again and have the unique letters only
         }
 
     }

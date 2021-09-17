@@ -17,8 +17,7 @@ public class Palindrome {
                 break;
             }
         }
-        System.out.println(chek ? "Palindrom" : "Not Palindrome");
-
+        System.out.println(chek ? "Palindrome" : "Not Palindrome");
 
     }
 

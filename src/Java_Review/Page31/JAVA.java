@@ -1,7 +1,5 @@
 package Java_Review.Page31;
 
-
-
 /*
 Write a program that will count how many times “java” is found in any given String:
 Keyword: string with value; counter; length() - 3; loop, print
